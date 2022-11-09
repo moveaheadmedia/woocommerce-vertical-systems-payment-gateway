@@ -11,7 +11,7 @@
  * Plugin Name:     Woocommerce Vertical Systems Payment Gateway
  * Plugin URI:      https://github.com/moveaheadmedia/woocommerce-vertical-systems-payment-gateway
  * Description:     WordPress Plugins - Adds Vertical Systems Payment Gateway Integration To Your Woocommerce Store
- * Version:         1.0.0
+ * Version:         1.0.1
  * Author:          Move Ahead Media
  * Author URI:      https://moveaheadmedia.com
  * Text Domain:     woo-vsl
