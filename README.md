@@ -17,8 +17,9 @@ https://github.com/moveaheadmedia/woocommerce-vertical-systems-payment-gateway/i
 
 ## Changelog
 ### 1.0.1
+* Fixed typo.
+#### (in progress)
 * Added validations for the admin settings.
 * Updated README.md
-* Fixed typo.
 
 Thanks
