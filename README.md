@@ -15,9 +15,10 @@ if you have any issue please post it in this repository issues:
 
 https://github.com/moveaheadmedia/woocommerce-vertical-systems-payment-gateway/issues
 
-## Change Log
+## Changelog
 ### 1.0.1
 * Added validations for the admin settings.
 * Updated README.md
+* Fixed typo.
 
 Thanks
