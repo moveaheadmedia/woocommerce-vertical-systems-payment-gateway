@@ -3,7 +3,10 @@
   <component name="PhpIncludePathManager">
     <include_path>
       <path value="E:/wordpress" />
+      <path value="$PROJECT_DIR$/woo-vsl/vendor/composer" />
+      <path value="$PROJECT_DIR$/woo-vsl/vendor/micropackage/internationalization" />
+      <path value="$PROJECT_DIR$/woo-vsl/vendor/micropackage/requirements" />
     </include_path>
   </component>
-  <component name="PhpProjectSharedConfiguration" php_language_level="7.4" />
+  <component name="PhpProjectSharedConfiguration" php_language_level="7.1" />
 </project>
