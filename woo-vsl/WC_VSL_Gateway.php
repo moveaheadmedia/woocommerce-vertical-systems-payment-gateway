@@ -45,14 +45,14 @@ class WC_VSL_Gateway extends WC_Payment_Gateway {
 		) );
 
 		// We need custom JavaScript to obtain a token
-		add_action( 'woocommerce_receipt_vls', array( &$this, 'receipt_page' ) );
+		add_action( 'woocommerce_receipt_vsl', array( &$this, 'receipt_page' ) );
 	}
 
 	/**
 	 * Setup general properties for the gateway.
 	 */
 	protected function setup_properties() {
-		$this->id                 = 'vls'; // payment gateway plugin ID
+		$this->id                 = 'vsl'; // payment gateway plugin ID
 		$this->icon               = ''; // URL of the icon that will be displayed on checkout page near your gateway name
 		$this->has_fields         = true; // in case you need a custom credit card form
 		$this->method_title       = 'VSL Gateway';
@@ -125,7 +125,7 @@ class WC_VSL_Gateway extends WC_Payment_Gateway {
 		$this->form_fields = array(
 			'enabled'          => array(
 				'title'       => 'Enable/Disable',
-				'label'       => 'Enable VLS Gateway',
+				'label'       => 'Enable VSL Gateway',
 				'type'        => 'checkbox',
 				'description' => '',
 				'default'     => 'no'
@@ -153,42 +153,42 @@ class WC_VSL_Gateway extends WC_Payment_Gateway {
 			),
 			'test_merchant_id' => array(
 				'title'       => 'Test Merchant ID',
-				'description' => '(Provided by VLS)',
+				'description' => '(Provided by VSL)',
 				'type'        => 'text'
 			),
 			'test_store_id'    => array(
 				'title'       => 'Test Store ID',
-				'description' => '(Provided by VLS)',
+				'description' => '(Provided by VSL)',
 				'type'        => 'text'
 			),
 			'test_user_id'     => array(
 				'title'       => 'Test User ID',
-				'description' => '(Provided by VLS)',
+				'description' => '(Provided by VSL)',
 				'type'        => 'text'
 			),
 			'test_password'    => array(
 				'title'       => 'Test Password',
-				'description' => '(Provided by VLS)',
+				'description' => '(Provided by VSL)',
 				'type'        => 'password',
 			),
 			'merchant_id'      => array(
 				'title'       => 'Merchant ID',
-				'description' => '(Provided by VLS)',
+				'description' => '(Provided by VSL)',
 				'type'        => 'text'
 			),
 			'store_id'         => array(
 				'title'       => 'Store ID',
-				'description' => '(Provided by VLS)',
+				'description' => '(Provided by VSL)',
 				'type'        => 'text'
 			),
 			'user_id'          => array(
 				'title'       => 'User ID',
-				'description' => '(Provided by VLS)',
+				'description' => '(Provided by VSL)',
 				'type'        => 'text'
 			),
 			'password'         => array(
 				'title'       => 'Password',
-				'description' => '(Provided by VLS)',
+				'description' => '(Provided by VSL)',
 				'type'        => 'password',
 			)
 		);
